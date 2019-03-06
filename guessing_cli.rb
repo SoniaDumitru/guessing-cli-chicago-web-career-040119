@@ -9,6 +9,7 @@ def run_guessing_game
     #users exits when input == "exit"
     if users_answer == "exit"
       puts "Goodbye!"
+      #break
       return
     #comparing input to a random number that has been generated
     elsif users_answer.to_i == computers_random_number
